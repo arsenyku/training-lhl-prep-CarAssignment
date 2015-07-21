@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		12AD015F1B5DE2BF00078878 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AD015E1B5DE2BF00078878 /* main.m */; };
+		12AD01671B5DE44900078878 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AD01661B5DE44900078878 /* Car.m */; };
+		12AD01701B5DF9C400078878 /* Toyota.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AD016F1B5DF9C400078878 /* Toyota.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		12AD015B1B5DE2BF00078878 /* CarsAssignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CarsAssignment; sourceTree = BUILT_PRODUCTS_DIR; };
 		12AD015E1B5DE2BF00078878 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12AD01651B5DE44900078878 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		12AD01661B5DE44900078878 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		12AD016E1B5DF9C400078878 /* Toyota.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toyota.h; sourceTree = "<group>"; };
+		12AD016F1B5DF9C400078878 /* Toyota.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Toyota.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				12AD015E1B5DE2BF00078878 /* main.m */,
+				12AD01651B5DE44900078878 /* Car.h */,
+				12AD01661B5DE44900078878 /* Car.m */,
+				12AD016E1B5DF9C400078878 /* Toyota.h */,
+				12AD016F1B5DF9C400078878 /* Toyota.m */,
 			);
 			path = CarsAssignment;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12AD01701B5DF9C400078878 /* Toyota.m in Sources */,
+				12AD01671B5DE44900078878 /* Car.m in Sources */,
 				12AD015F1B5DE2BF00078878 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,6 +247,7 @@
 				12AD01641B5DE2BF00078878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
