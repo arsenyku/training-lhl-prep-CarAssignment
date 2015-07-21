@@ -9,5 +9,13 @@
 #import "Car.h"
 
 @implementation Car
+- (void) drive{
+    NSLog(@"Model = %@", self.Model);
+}
 
+
+- (Car *) initWithModel: (NSString*)model{
+    self.Model = model;
+    return self;
+}
 @end

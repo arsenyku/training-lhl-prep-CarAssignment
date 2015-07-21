@@ -9,5 +9,10 @@
 #import "Toyota.h"
 
 @implementation Toyota
-
+- (id)init {
+    self = [super init];
+    self.Model = @"Prius";
+    
+    return self;
+}
 @end
