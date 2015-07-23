@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface Car : NSObject
-@property (nonatomic) NSString *Model;
+@property (nonatomic) NSString *model;
 
 - (void) drive; 
 - (Car *) initWithModel: (NSString*)model;

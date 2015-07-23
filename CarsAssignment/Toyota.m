@@ -10,8 +10,7 @@
 
 @implementation Toyota
 - (id)init {
-    self = [super init];
-    self.Model = @"Prius";
+    self = [super initWithModel: @"Prius"];
     
     return self;
 }
